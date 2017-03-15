@@ -1,7 +1,7 @@
 .PHONY: install uninstall deb
 
 install:
-	cp etc/bash_completion.d/vagrant /etc/bash_completion.d/vagrant
+	cp etc/bash_completion.d/vagrant /usr/local/etc/bash_completion.d/vagrant
 
 uninstall:
 	rm /etc/bash_completion.d/vagrant
